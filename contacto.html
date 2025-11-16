@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Contacto</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pelicula.html">Pelicula</a></li>
+                <li><a href="actores.html">Actores</a></li>
+                <li><a href="produccion.html">Produccion</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulario de contacto</h2>
+            
+            <form action="enviado.html" method="get" class="contacto">
+                <div class="parte">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                
+                <div class="parte">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido">
+                </div>
+                
+                <div class="parte">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="parte">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required minlength="10"></textarea>
+                </div>
+                
+                <button type="submit" class="boton">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <article>
+                <h3>Redes sociales oficiales</h3>
+                <p>Segui las cuentas oficiales de Marvel para mantenerte actualizado:</p>
+                
+                <ul>
+                    <li>Twitter: @MarvelStudios</li>
+                    <li>Instagram: @marvelstudios</li>
+                    <li>Facebook: Marvel Entertainment</li>
+                    <li>YouTube: Marvel Entertainment</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Plataformas de streaming</h3>
+                <p>Podes ver Iron Man en las siguientes plataformas:</p>
+                
+                <ul>
+                    <li>Disney Plus</li>
+                    <li>Amazon Prime Video</li>
+                    <li>Google Play Movies</li>
+                    <li>Apple TV</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sitio sobre Iron Man</p>
+    </footer>
+</body>
+</html>
